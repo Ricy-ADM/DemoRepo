@@ -48,7 +48,10 @@ Or mvn test from the terminal(not working for now)
  
  BDD HTML Reports :-
  
- target>cucumber-html-reports
+  Generate Report -- execute 'mvn verify' command at home folder
+  Location --- target>cucumber-html-reports
+  
+ 
  
  
  
