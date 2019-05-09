@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1732216939,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.init(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify countdown timer for e.ggtime",
+        "description": "",
+        "id": "e.ggtime-coundown-check;verify-countdown-timer-for-e.ggtime;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 91597959,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1856239246,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDef.User_navigates_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147978266,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters \"time\" as \"25 seconds\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "time",
+                  "offset": 8
+                },
+                {
+                  "val": "25 seconds",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDef.Enters_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8098852803,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on \"Go\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Go",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDef.Clicks_on_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Timer failed at 23\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat Eggtimer.Eggtimer.SeleniumTest.VerifyPageCounter(SeleniumTest.java:100)\n\tat Eggtimer.Eggtimer.stepDefinition.StepDef.Verify_page_counter(StepDef.java:41)\n\tat ✽.Counter should start and decriment per second on page(file:src/test/java/Eggtimer/Eggtimer/Features/Timer.feature:7)\n",
+              "duration": 23668433252,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Counter should start and decriment per second on page",
+            "match": {
+              "location": "StepDef.Verify_page_counter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "e.ggtime coundown check",
+    "description": "",
+    "id": "e.ggtime-coundown-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Eggtimer/Eggtimer/Features/Timer.feature",
+    "tags": []
+  }
+]
